@@ -15,7 +15,7 @@
 
 	// The first level of keys should be the value from sublime.platform(),
 	// or "*" for all platforms.
-	"windows": {
+	"windows, linux, osx": {
 
 		// The second level should be a version selector, like used for
 		// the sublime_text value in package releases.
